@@ -29,12 +29,12 @@ class EnterpriseConfigurationManager {
              * 🎵 LAVALINK AUDIO SERVER CONFIGURATION
              * Configure your Lavalink server for audio processing
              */
-            lavalink: {
-                host: EnvironmentVariableProcessor.LAVALINK_HOST || "45.13.236.245", 
-                port: EnvironmentVariableProcessor.LAVALINK_PORT || 25582,       
+           lavalink: {
+                host: EnvironmentVariableProcessor.LAVALINK_HOST || "ge-02.vortexa.cloud", 
+                port: EnvironmentVariableProcessor.LAVALINK_PORT || 11050,       
                 password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "glace", 
                 secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'true' || false
-            },         
+            },      
             /**
              * 🤖 BOT BEHAVIOR CONFIGURATION
              * Customize your bot's appearance and basic behavior
@@ -100,6 +100,7 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
 
 
